@@ -1,5 +1,5 @@
 #!/bin/bash
 
 outfile="${1%.*}.dxf"
-~/git/boxes/scripts/boxes TrayLayout --input=$1 --format=dxf --output=$outfile --burn=0.1 --outside=0
+~/git/ext/boxes/scripts/boxes TrayLayout --input=$1 --format=dxf --output=$outfile --burn=0.1 --outside=0
 
